@@ -1,0 +1,86 @@
+@page
+@{
+    Layout=null;   
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Navbar</title>
+    <nav class="navbar navbar-dark bg-dark">
+  <!-- Navbar content -->
+</nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">My profile</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contac Me</a>
+        </li>
+        <li class="nav-item dropdown">
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+  <title>Bootstrap layout</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center" >
+    
+  <h1>Iqbal A.Ismail</h1>
+  <p>Bandung</p>
+  <img src="~/img/2.jpeg" class="rounded-tringle img-thumbnail" width="250">
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Gunung Gede</h3>
+      <img src="~/img/1.jpeg" class="rounded-tringle img-thumbnail" widht="250">
+    </div>
+    <div class="col-sm-4">
+      <h3>Gunung Lawu</h3>
+      <img src="~/img/3.jpeg" class="rounded-tringle img-thumbnail" widht="300">
+    </div>
+    <div class="col-sm-4">
+      <h3>Gunung Slamet</h3>
+      <div class="card">
+      <img src="~/img/4.jpeg" class="rounded-tringle img-thumbnail" widht="300">     
+      
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
